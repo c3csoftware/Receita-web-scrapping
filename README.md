@@ -21,15 +21,10 @@
 </div>
 
 ---
-
-## Visão Geral
-
-Esta biblioteca permite realizar consultas automatizadas a API's para obter dados relacionados a CNPJ's de empresas, estabelecimentos e sócios. O processo é contínuo e baseado na extração de dados indexados, seguida pela inserção em um banco de dados para posterior análise e consulta.
-
 ### Funcionalidades
 
 - **Consulta de dados na receita federal.**
-- **Inserção automatizada no banco de dados Postgress.**
+- **Inserção automatizada no banco de dados Postgress (SQLAlchemy).**
 - **Processamento contínuo dos dados até que todos os arquivos sejam baixados.**
 
 ---
