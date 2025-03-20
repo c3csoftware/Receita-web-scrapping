@@ -38,7 +38,7 @@ O fluxo principal da aplicação segue o processo descrito abaixo:
    - A busca ocorre até que todos os arquivos de empresas sejam processados, ou seja, até não haver mais arquivos indexados disponíveis para download.
    
 2. **Inserção dos Dados no Banco de Dados:**
-   - Após o download de cada arquivo de índice, os arquivos extraídos são trasformados em arquivos .csv com os devidos cabeçalhos para cada arquivo (CONFORME O LAYOUT DA RECEITA: <a href="https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf"></a>) os dados são lidos e inseridos no banco de dados
+   - Após o download de cada arquivo de índice, os arquivos extraídos são trasformados em arquivos .csv com os devidos cabeçalhos para cada arquivo (CONFORME O <a href="https://www.gov.br/receitafederal/dados/cnpj-metadados.pdf">LAYOUT DA RECEITA</a>) os dados são lidos e inseridos no banco de dados
 
 3. **Processamento Contínuo:**
    - O sistema executa esse ciclo de forma contínua, até que todos os arquivos de empresas, estabelecimentos e sócios sejam baixados e inseridos no banco.
