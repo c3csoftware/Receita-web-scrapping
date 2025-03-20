@@ -7,9 +7,8 @@ import time
 from decimal import Decimal
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy import select
-# Corrected import statement: Assuming 'schemas.py' is in the same directory
 from userschema import Company, Establishment, Simples, Partner, LegalNature, City, Country, Cnae, PartnerQualification
-from bd import getSession # Assuming bd.py is also in the same directory
+from bd import getSession 
 
 def download_with_retries(url, zip_file_path, max_retries=10, backoff_factor=2):
     attempt = 0
